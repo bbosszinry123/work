@@ -1,0 +1,31 @@
+:root {
+    --main_color:hsl(26, 100%, 55%)
+}
+
+body {
+    letter-spacing: 1px;
+}
+
+.dropdown-menu {
+    transform: translateX(-70%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+
+.btn-group .btn{
+    background: hsl(223, 64%, 98%);
+    color: var(--main_color);
+}
+
+#add_to_cart,#sale,#checkout{
+    background-color: var(--main_color);
+}
+
+#add_to_cart:active{
+    background-color:  hsl(25, 100%, 94%);
+}
+
+#company{
+    color: var(--main_color);
+    letter-spacing: 2px;
+}
